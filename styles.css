@@ -11,7 +11,7 @@ html {
 
 header {
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	padding: 3rem 0;
@@ -192,10 +192,11 @@ i {
 .menu-toggle {
 	display: none;
 }
-.circle {
-	display: none;
-}
+
 @media screen and (max-width: 900px) {
+	.hero {
+		overflow-y: auto;
+	}
 	.circle {
 		display: none;
 	}
